@@ -5,10 +5,11 @@ import {fetchImages} from "./apis";
 
 function App() {
   useEffect(()=>{
-    fetchImages(1,10)
+    fetchImages()
   })
   return (
     <div className="App">
+
 
     </div>
   );
